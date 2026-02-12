@@ -1,0 +1,122 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+h2{
+    margin-bottom:15px;
+}
+
+
+.header{
+    background:rgb(44, 0, 0);
+    color:white;
+    padding:20px;
+    gap: 30px;
+    display:flex;
+    justify-content:space-between;
+}
+
+.nav a{
+    color:white;
+    text-decoration:none;
+}
+
+
+
+.hero{
+    height:80vh;
+    background:url("https://wallpapercave.com/wp/wp13355388.jpg") center/cover;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    color:white;
+}
+
+
+.btn{
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 30px;
+    border: solid 2px;
+}
+
+.btn:hover{
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 30px;
+    color: aliceblue;
+    background-color: rgb(109, 45, 7);
+}
+
+.btn:active{
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 30px;
+    border: solid 2px;
+    background-color: rgb(8, 69, 13);
+}
+.font_1{
+    padding-top: 20px;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-left: 20px;
+}
+.box1{
+    background-color: aquamarine;
+    width: 50%;
+     margin:2px 20px;
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+
+}
+.box2{
+    background-color: rgba(106, 226, 196, 0.688);
+    height: 40vh;
+    margin:2px 20px 20px;
+    text-align: center;
+font-size: 80px;
+
+   
+}
+
+
+.box_1{
+    background-color: rgba(181, 243, 222, 0.607);
+    width: 90%;
+     margin:10px 20px;
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+    border: solid rgb(0, 0, 0) 2px;
+   
+}
+.box_2{
+    background-color: rgba(181, 243, 222, 0.607);
+    width: 90%;
+     margin:10px 20px;
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+    border: solid black 2px;
+
+}
+
+.flex_box{
+
+}
+.box_flex{
+    background-color: aquamarine;
+    flex: 1;
+    height: 40px;
+}
+.flex{
+    display: flex;
+    gap: 10px;
+    
+}
