@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box1{
+    background-color: rgb(5, 103, 103);
+    height:500px;
+    width: 500px;
+    margin-top: 10px;
+    position: relative;
+    align-items: center;
+  
+    display: flex;
+
+
+}
+#hello{
+    
+   background-color: rgb(5, 154, 159);
+   color: whitesmoke;
+   height: 200px;
+   width: 200px;
+   margin-bottom: 100px;
+
+
+  
+
+
+   
+}
+#hello:hover{
+    border: 10px inset black;
+   /* border-radius: 100%; */
+   background-color: rgb(30, 107, 100);
+
+}
+
+
+
+#box2{
+    height: 150px;
+    width: 30px;
+    background-color: blue;
+
+}
+body{
+    height: 100px;
+    width: 150px;
+    background-color: rgb(9, 35, 32);
+}
+.card{
+    width: 100vw;
+}
+h1{
+    background-color: aqua;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+button{
+    background-color: yellow;
+    margin: 20px;
+    padding: 5px 10px;
+    border: 1px solid white;
+    box-shadow: 10px 12px 23px rgb(red, green, blue);
+}

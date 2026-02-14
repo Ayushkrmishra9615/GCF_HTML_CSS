@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #2c5f5f;
+    padding:20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: #4ecb71;
+}
+
+.logo span {
+    color: #ff8c42;
+}
+
+.nav_links {
+    display: flex;
+    gap:20px;
+}
+
+.nav_links a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav_links a:hover {
+    color: #4ecb71;
+}
+
+/* Main Content */
+main {
+    flex: 1;
+    padding: 4rem 2rem;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #1e4444;
+    color: white;
+    padding: 3rem 2rem;
+    margin-top: auto;
+}
+
+/* Footer Top - Parent Div 1 (Logo, About Us, Newsletter) */
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1400px;
+    margin: 0 auto 2rem;
+    gap: 2rem;
+}
+
+.footer-section {
+    flex: 1;
+}
+
+/* Logo Styling */
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.footer-logo img {
+    width: 60px;
+    height: 60px;
+    background-color: #4ecb71;
+    border-radius: 50%;
+    padding: 0.5rem;
+}
+
+.footer-logo h2 {
+    font-size: 1.5rem;
+    color: #4ecb71;
+    margin-bottom: 0.3rem;
+}
+
+.footer-logo span {
+    color: #ff8c42;
+}
+
+.footer-logo p {
+    font-size: 0.85rem;
+    color: #b0d4d4;
+}
+
+/* Footer Links */
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #4ecb71;
+}
+
+/* Newsletter Section in Footer Top */
+.footer-section h3 {
+    color: #ff8c42;
+    font-size: 1.3rem;
+    margin-bottom: 0.8rem;
+}
+
+.footer-section p {
+    font-size: 0.9rem;
+    color: #b0d4d4;
+    line-height: 1.6;
+}
+
+/* Footer Bottom - Parent Div 2 (Contact, Social Media, Newsletter Form) */
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+    gap: 2rem;
+    padding: 2rem 0;
+}
+
+/* Contact Info */
+.footer-contact {
+    display: flex;
+    gap: 2rem;
+    flex: 1;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.contact-item .icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    
+}
+
+
+
+.contact-item a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+
+
+
+
+
+.social-media {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex: 1;
+}
+
+.social-icon,.insta-icon, .x-icon, .fb-icon {
+    width: 50px;
+    height: 50px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1e4444;
+    text-decoration: none;
+    font-weight: bold;
+    background-size: cover;
+   
+}
+.social-icon{
+    background-image: url(in.png);
+}
+.insta-icon{
+    background-image: url(instagram.png);
+}
+.x-icon{
+    background-image: url(twitter.png);
+    
+}
+.fb-icon{
+    background-image: url(facebook.png);
+}
+
+
+
+.newsletter-form {
+    display: flex;
+    border: 2px solid #4ecb71;
+    border-radius: 50px;
+    overflow: auto;
+    flex: 1;
+}
+
+.newsletter-form input {
+    flex: 1;
+    padding: 10px;
+    border:none;
+    background-color: transparent;
+    color: white;
+    font-size: 15px;
+}
+
+
+.newsletter-form button {
+    padding: 10px;
+    border: none;
+    background-color: #4ecb71;
+    color: #1e4444;
+    font-weight: bold;
+    cursor: pointer;
+   
+}
+
+
+
+
+
